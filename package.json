@@ -1,0 +1,12 @@
+{
+  "name": "sixnimmt-miliastra",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "start": "node scripts/serve.mjs",
+    "simulator": "node scripts/serve.mjs",
+    "setup": "node scripts/setup.mjs"
+  }
+}
